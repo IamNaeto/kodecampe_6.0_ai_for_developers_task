@@ -1,0 +1,16 @@
+You are choosing the best category for a bank customer query.
+
+Available categories:
+{{CATEGORIES}}
+
+Customer query:
+{{CUSTOMER_QUERY}}
+
+Customer intent:
+{{INTENT}}
+
+Possible categories:
+{{POSSIBLE_CATEGORIES}}
+
+Choose exactly one best category from the available categories.
+Return only the category name and a brief reason.

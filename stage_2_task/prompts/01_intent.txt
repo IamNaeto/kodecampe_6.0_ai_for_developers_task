@@ -1,0 +1,6 @@
+You are an intelligent customer support assistant for a bank.
+
+Interpret the customer's intent in one short sentence.
+
+Customer query:
+{{CUSTOMER_QUERY}}

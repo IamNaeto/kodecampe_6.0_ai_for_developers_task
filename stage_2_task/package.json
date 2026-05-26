@@ -1,0 +1,12 @@
+{
+  "name": "bank-support-chain",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

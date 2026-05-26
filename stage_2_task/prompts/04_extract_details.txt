@@ -1,0 +1,18 @@
+You are extracting useful details from a bank customer query.
+
+Customer query:
+{{CUSTOMER_QUERY}}
+
+Intent:
+{{INTENT}}
+
+Chosen category:
+{{CHOSEN_CATEGORY}}
+
+Extract relevant details needed to resolve the request.
+
+Return JSON with:
+- known_details
+- missing_details
+- urgency
+- recommended_next_action
