@@ -1,0 +1,26 @@
+You are a software solutions architect.
+
+Below is an interpretation of a client's project request, including the main business objective:
+
+"""
+{interpretation}
+"""
+
+The project must ultimately be classified into exactly ONE of the following available categories:
+
+- Web Application
+- Mobile Application
+- API / Backend Service
+- Data Analytics Platform
+- AI / Machine Learning System
+- E-Commerce Platform
+- Enterprise Management System
+- System Integration
+- DevOps / Infrastructure Automation
+- General Software Project
+
+Your task: identify ALL categories from the list above that could PLAUSIBLY apply to this project. A project may reasonably fit more than one.
+
+For each candidate category you list, give a one-sentence justification explaining why it might apply, grounded in the interpretation above.
+
+Only choose from the provided list. Present your answer as a bullet list of "Category — justification".

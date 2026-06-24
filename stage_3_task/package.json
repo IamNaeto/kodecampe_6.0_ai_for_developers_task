@@ -1,0 +1,16 @@
+{
+  "name": "requirements-analysis-chain",
+  "version": "1.0.0",
+  "description": "Software requirements analysis system using a 5-stage LangChain LCEL prompt chain.",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.40",
+    "@langchain/openai": "^0.4.4",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.19"
+  }
+}

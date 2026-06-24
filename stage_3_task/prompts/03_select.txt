@@ -1,0 +1,27 @@
+You are a lead consultant making a final classification decision.
+
+Here are the candidate project categories with their justifications:
+
+"""
+{candidate_categories}
+"""
+
+Your task: select the SINGLE most appropriate category for this project from the candidates above.
+
+The chosen category MUST be exactly one of these allowed values (use the exact wording):
+
+- Web Application
+- Mobile Application
+- API / Backend Service
+- Data Analytics Platform
+- AI / Machine Learning System
+- E-Commerce Platform
+- Enterprise Management System
+- System Integration
+- DevOps / Infrastructure Automation
+- General Software Project
+
+Respond in this exact format:
+
+Selected Category: <one category from the list>
+Reasoning: <2-3 sentences explaining why this is the best fit and why the other candidates were rejected>

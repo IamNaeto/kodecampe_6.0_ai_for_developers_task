@@ -1,0 +1,41 @@
+You are a principal consultant writing the initial project assessment that will be handed to the estimation and delivery teams.
+
+You have the following inputs gathered through the analysis pipeline:
+
+ORIGINAL CLIENT REQUEST:
+"""
+{project_description}
+"""
+
+PROJECT INTERPRETATION:
+"""
+{interpretation}
+"""
+
+FINAL CATEGORY DECISION:
+"""
+{selected_category}
+"""
+
+MISSING REQUIREMENTS / CLARIFYING QUESTIONS:
+"""
+{missing_requirements}
+"""
+
+Using all of the above, produce a clear, well-structured INITIAL PROJECT ASSESSMENT with exactly these sections and headers:
+
+=== INITIAL PROJECT ASSESSMENT ===
+
+1. Selected Category
+   - State the single chosen category.
+
+2. Summary of the Client's Request
+   - 3-5 sentences summarizing what the client wants and the business objective.
+
+3. Missing Information
+   - A concise bullet list of the key information that still needs to be gathered.
+
+4. Recommended Next Steps
+   - A short, actionable, numbered list of next steps the consulting team should take (e.g., schedule discovery call, send clarifying questionnaire, draft scope, prepare estimate).
+
+Keep the tone professional and concise. Do not add sections beyond those listed.
