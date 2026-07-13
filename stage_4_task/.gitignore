@@ -1,0 +1,7 @@
+node_modules/
+.env
+data/
+chroma-data/
+npm-debug.log*
+data/
+chroma-data/
