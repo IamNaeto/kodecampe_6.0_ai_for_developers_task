@@ -157,8 +157,8 @@ export const queryInternalInformation = createTool({
 });
 
 export const assistantTools = {
-  getFlightBookingSchedule,
-  getHotelBookingSchedule,
-  convertCurrency,
-  queryInternalInformation,
+  get_flight_booking_schedule: getFlightBookingSchedule,
+  get_hotel_booking_schedule: getHotelBookingSchedule,
+  convert_currency: convertCurrency,
+  query_internal_information: queryInternalInformation,
 };

@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 import "dotenv/config";
 
-import { randomUUID } from "node:crypto";
 import { createInterface } from "node:readline/promises";
 import { stdin, stdout } from "node:process";
 
 const resourceId = process.env.MASTRA_RESOURCE_ID?.trim() || "local-cli-user";
-const threadId = process.env.MASTRA_THREAD_ID?.trim() || `cli-${randomUUID()}`;
+const threadId = process.env.MASTRA_THREAD_ID?.trim() || "default";
 const terminal = createInterface({ input: stdin, output: stdout });
 let mastra;
 let activeController;
@@ -14,11 +13,11 @@ let closing = false;
 
 function startSpinner() {
   if (!stdout.isTTY) return () => {};
-  const frames = ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"];
+  const frames = ["|", "/", "-", "\\"];
   let frame = 0;
   let stopped = false;
   const timer = setInterval(() => {
-    stdout.write(`\r${frames[frame++ % frames.length]} Thinking…`);
+    stdout.write(`\r${frames[frame++ % frames.length]} Thinking...`);
   }, 80);
   return () => {
     if (stopped) return;

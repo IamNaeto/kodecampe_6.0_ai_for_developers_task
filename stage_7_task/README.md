@@ -41,13 +41,13 @@ Start the Mastra development server and Studio in a separate terminal:
 npm run dev
 ```
 
-Use `/exit`, `/quit`, or Ctrl+C to exit. By default, a new random thread is made
-for each CLI process. Set `MASTRA_THREAD_ID` to a stable value to resume the same
-conversation after restarting the CLI.
+Use `/exit`, `/quit`, or Ctrl+C to exit. The default `MASTRA_THREAD_ID` is
+`default`, so conversation memory survives CLI restarts. Change it to start or
+resume a different conversation.
 
 ## Tools and RAG
 
-The registered agent has the same four tools as Stage 6:
+The registered agent has four tools:
 
 1. `get_flight_booking_schedule`
 2. `get_hotel_booking_schedule`

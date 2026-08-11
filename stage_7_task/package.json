@@ -18,7 +18,7 @@
     "@mastra/core": "1.52.1",
     "@mastra/libsql": "1.16.0",
     "@mastra/memory": "1.23.1",
-    "@openrouter/ai-sdk-provider": "latest",
+    "@openrouter/ai-sdk-provider": "3.0.0",
     "dotenv": "^17.2.1",
     "zod": "^4.0.0"
   },
