@@ -1,0 +1,28 @@
+{
+  "name": "stage-7-mastra-cli-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A streaming Mastra command-line assistant with tools, RAG, and persistent memory.",
+  "type": "module",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "node cli.js",
+    "cli": "node cli.js",
+    "check": "node --check cli.js && node --check src/mastra/index.js && node --check src/mastra/agents/assistant-agent.js && node --check src/mastra/tools/index.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@mastra/core": "1.52.1",
+    "@mastra/libsql": "1.16.0",
+    "@mastra/memory": "1.23.1",
+    "@openrouter/ai-sdk-provider": "latest",
+    "dotenv": "^17.2.1",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "mastra": "1.20.3"
+  }
+}
